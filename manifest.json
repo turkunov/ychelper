@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "ycHelper",
+    "description": "Расширение для Яндекс.Контеста",
+    "version": "1.0",
+    "icons": {
+        "92": "icon.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting", "clipboardRead", "clipboardWrite"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
